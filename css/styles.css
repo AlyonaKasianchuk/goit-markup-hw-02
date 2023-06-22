@@ -1,0 +1,68 @@
+:root {
+    --primary-dark-color: #2E2F42;
+    --primary-background-color: #F4F4FD;
+    --primary-text-color: #434455;
+    --active-color: #404BBF;
+    --blue-brand-color: #4D5AE5;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+    background-color: #fff;
+}
+span {
+    color: var(--blue-brand-color);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.link-nav {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+.link-adress {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+h1 {
+    color: #fff;
+    font-size: 56px;
+}
+h2, 
+h3 {
+    color:var(--primary-dark-color);
+    font-size: 36px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+.main-page {
+    background-color: var(--primary-dark-color);
+}
+.button-order {
+    color: #fff;
+    background-color:var(--blue-brand-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-order:active {
+    background-color: var(--active-color);
+}
+.button-order:focus {
+    background-color: var(--active-color);
+}
+
+.team {
+    background-color: var(--primary-background-color);
+}
+
