@@ -4,25 +4,27 @@
     --primary-text-color: #434455;
     --active-color: #404BBF;
     --blue-brand-color: #4D5AE5;
+    --white: #fff;
 }
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-text-color);
-    background-color: #fff;
-}
-span {
-    color: var(--blue-brand-color);
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 800;
+    background-color: var(--white);
 }
 
+
 .logo {
+    line-height: 1.17;
     text-transform: uppercase;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
     text-decoration: none;
+    initial-letter: 0.03em;
+    color: var(--blue-brand-color)
+}
+span {
+    color: var(--primary-dark-color);
 }
 .link-nav {
     font-weight: 500;
@@ -34,7 +36,7 @@ span {
     text-decoration: none;
 }
 h1 {
-    color: #fff;
+    color:var(--white);
     font-size: 56px;
 }
 h2, 
@@ -50,7 +52,7 @@ p{
     background-color: var(--primary-dark-color);
 }
 .button-order {
-    color: #fff;
+    color:var(--white);
     background-color:var(--blue-brand-color);
     font-size: 16px;
     cursor: pointer;
