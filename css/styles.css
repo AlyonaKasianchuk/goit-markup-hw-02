@@ -1,8 +1,8 @@
 :root {
-    --primary-dark-color: #2E2F42;
-    --primary-background-color: #F4F4FD;
+    --navyblue: #2E2F42;
+    --cloud: #F4F4FD;
     --primary-text-color: #434455;
-    --active-color: #404BBF;
+    --ocean: #404BBF;
     --blue-brand-color: #4D5AE5;
     --white: #fff;
 }
@@ -11,60 +11,191 @@ body {
     color: var(--primary-text-color);
     background-color: var(--white);
 }
+h2, h3 {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+
+}
 
 
 .logo {
     line-height: 1.17;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family:"Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-decoration: none;
-    initial-letter: 0.03em;
-    color: var(--blue-brand-color)
+    letter-spacing: 0.03em;
+    color: var(--blue-brand-color);
 }
 span {
-    color: var(--primary-dark-color);
+    color: var(--navyblue);
 }
+
+/* Navigation */
+
 .link-nav {
+    list-style: none;
+}
+.link-adress {
+    list-style: none;
+}
+.list {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--navyblue, #2E2F42);
+    list-style: none;
 }
-.link-adress {
+.list:active {
+    color: var(--ocean, #404BBF);  
+}
+.list:focus {
+    color: var(--ocean, #404BBF)
+}
+
+.list:hover {
+    color: var(--ocean, #404BBF)
+}
+
+.link {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    list-style: none;
 }
-h1 {
-    color:var(--white);
-    font-size: 56px;
+.link:active {
+    color: var(--ocean, #404BBF);
 }
+.link:focus {
+    color: var(--ocean, #404BBF);
+}
+.link:hover {
+    color: var(--ocean, #404BBF)
+}
+
+ /* Main Page */
+
+ h1 {
+     background-color: var(--navyblue);
+     color: var(--white);
+     font-size: 56px;
+     text-align: center;
+ }
+ .main-page {
+     background-color: var(--navyblue);
+ }
+
+ .button-order {
+     color: var(--white);
+     background-color: var(--blue-brand-color);
+     font-size: 16px;
+     cursor: pointer;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ }
+
+ .button-order:active {
+     background-color: var(--ocean);
+ }
+
+ .button-order:focus {
+     background-color: var(--ocean);
+ }
+
+/* Advantages */
+
 h2, 
 h3 {
-    color:var(--primary-dark-color);
+    color:var(--navyblue);
     font-size: 36px;
     font-weight: 700;
 }
-p{
-    font-size: 16px;
+
+.title-doing, .team, .member, .profession {
+    text-align: center;
 }
-.main-page {
-    background-color: var(--primary-dark-color);
+.list-advantages{
+    list-style: none;
+    text-align: left;
 }
-.button-order {
-    color:var(--white);
-    background-color:var(--blue-brand-color);
-    font-size: 16px;
-    cursor: pointer;
+.description-adv {
+    text-align: left;
 }
-.button-order:active {
-    background-color: var(--active-color);
-}
-.button-order:focus {
-    background-color: var(--active-color);
+.list-team {
+    list-style: none;
 }
 
+/* Doing */
+
+.list-doing {
+    list-style: none;
+}
+
+/* Team */
+
 .team {
-    background-color: var(--primary-background-color);
+    background-color: var(--cloud);
+}
+
+/* Footer */
+.page-footer {
+    background-color: var(--navyblue);
+}
+.text-footer {
+    color: var(--cloud, #F4F4FD);
+    letter-spacing: 0.32px;
+    line-height: 24px;
+    text-align: left;
+}
+.logo-footer {
+    color: var(--cloud);
+    line-height: 1.17;
+    text-transform: uppercase;
+    font-family:"Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logo-footer span {
+    color:var(--blue-brand-color);
+}
+
+/* Portfolio */
+
+.filter-btn {
+    color: var(--blue-brand-color, #4D5AE5);
+    background-color: var(--cloud, #F4F4FD);
+}
+.filter-btn:active {
+    background-color: var(--ocean, #404BBF);
+    color: var(--white, #FFF);
+
+}
+.filter-btn:hover {
+    background-color: var(--ocean, #404BBF);
+    color: var(--white, #FFF);
+}
+.filter-btn:focus {
+    background-color: var(--ocean, #404BBF);
+    color: var(--white, #FFF);
+}
+.list-filters {
+    list-style: none;
+}
+.list-projects {
+    list-style: none;
+}
+.title-project {
+    text-align: left;
+}
+.kind-project {
+    text-align: left;
 }
 
