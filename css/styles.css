@@ -94,6 +94,8 @@ span {
      color: var(--white);
      font-size: 56px;
      text-align: center;
+     line-height: 1.07;
+     letter-spacing: 0.02em;
  }
  .main-page {
      background-color: var(--navyblue);
@@ -105,6 +107,10 @@ span {
      font-size: 16px;
      cursor: pointer;
      text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
  }
 
  .button-order:active {
@@ -114,14 +120,35 @@ span {
  .button-order:focus {
      background-color: var(--ocean);
  }
+ .button-order:hover {
+    background-color: var(--ocean);
+ }
 
 /* Advantages */
 
-h2, 
-h3 {
+h2 {
     color:var(--navyblue);
     font-size: 36px;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+h3 {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.description-adv {
+   font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.32px; 
+    text-align: left;
 }
 
 .title-doing, .team, .member, .profession {
@@ -130,12 +157,6 @@ h3 {
 .list-advantages{
     list-style: none;
     text-align: left;
-}
-.description-adv {
-    text-align: left;
-}
-.list-team {
-    list-style: none;
 }
 
 /* Doing */
@@ -146,6 +167,9 @@ h3 {
 
 /* Team */
 
+.list-team {
+    list-style: none;
+}
 .team {
     background-color: var(--cloud);
 }
