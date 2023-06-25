@@ -131,7 +131,7 @@ h2 {
     font-size: 36px;
     font-family: Roboto, sans-serif;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -173,7 +173,15 @@ h3 {
 .team {
     background-color: var(--cloud);
 }
-
+.photo-member {
+    background-color: var(--white);
+}
+.profession {
+   font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5x;
+    letter-spacing: 0.02em; 
+}
 /* Footer */
 .page-footer {
     background-color: var(--navyblue);
@@ -194,8 +202,8 @@ h3 {
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-.logo-footer span {
-    color:var(--blue-brand-color);
+.logo-footer{
+    color:var(--cloud);
 }
 
 /* Portfolio */
@@ -203,6 +211,11 @@ h3 {
 .filter-btn {
     color: var(--blue-brand-color, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .filter-btn:active {
     background-color: var(--ocean, #404BBF);
