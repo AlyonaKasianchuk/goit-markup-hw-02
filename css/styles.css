@@ -34,6 +34,9 @@ span {
 }
 
 /* Navigation */
+.page-adress {
+    font-style: normal;
+}
 
 .link-nav {
     list-style: none;
@@ -97,7 +100,7 @@ span {
      background-color: var(--blue-brand-color);
      font-size: 16px;
      cursor: pointer;
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  }
 
  .button-order:active {
