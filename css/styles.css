@@ -44,7 +44,7 @@ span {
 .link-adress {
     list-style: none;
 }
-.list {
+.navigation {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
@@ -54,18 +54,18 @@ span {
     color: var(--navyblue, #2E2F42);
     list-style: none;
 }
-.list:active {
+.navigation:active {
     color: var(--ocean, #404BBF);  
 }
-.list:focus {
+.navigation:focus {
     color: var(--ocean, #404BBF)
 }
 
-.list:hover {
+.navigation:hover {
     color: var(--ocean, #404BBF)
 }
 
-.link {
+.adress {
     color: var(--primary-text-color);
     text-decoration: none;
     font-size: 16px;
@@ -73,13 +73,13 @@ span {
     letter-spacing: 0.32px;
     list-style: none;
 }
-.link:active {
+.adress:active {
     color: var(--ocean, #404BBF);
 }
-.link:focus {
+.adress:focus {
     color: var(--ocean, #404BBF);
 }
-.link:hover {
+.adress:hover {
     color: var(--ocean, #404BBF)
 }
 
