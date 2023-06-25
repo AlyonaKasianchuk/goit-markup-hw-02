@@ -15,9 +15,13 @@ h2, h3 {
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
-
 }
-
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 
 .logo {
     line-height: 1.17;
