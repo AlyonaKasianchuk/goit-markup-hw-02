@@ -33,7 +33,7 @@ h2, h3 {
     letter-spacing: 0.03em;
     color: var(--blue-brand-color);
 }
-span {
+.logo-header {
     color: var(--navyblue);
 }
 
